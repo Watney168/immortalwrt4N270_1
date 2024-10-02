@@ -14,6 +14,7 @@
 git clone https://github.com/sirpdboy/luci-app-wizard package/luci-app-wizard
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
+git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.3.205/g' package/base-files/files/bin/config_generate
 
